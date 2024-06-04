@@ -6,23 +6,23 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body class="family-inter flex md:flex-col lg:flex-row sm:flex-col">
+<body class="bg-slate-100 desktop:flex">
   
-  <main class="l-container sm:text-center md:text-center lg:text-left xl:text-center pt-16 px-24 ml-48 mt-6 w-2/4 sm:flex-col md:flex-col lg:flex-row xl:flex-row sm:w-100 md:w-100 lg:w-2/4 xl:w-2/4">
-    <header class="mx-auto m-4">
-      <h2 class="tracking-widest">ABOUT YOUR WORK</h2>
+  <main class="l-container sm:ml-16 mobile:ml-16 desktop:ml-8 mt-24 sm:text-center mobile:text-center flex-col desktop:text-left desktop:flex desktop:w-3/4">
+    <header class="mb-8">
+      <h2 class="tracking-widest ">ABOUT YOUR WORK</h2>
     </header>
-    <section class="title font-bold text-4xl mb-8">
-      <h1>Now That You Grabbed Your Reader'S Attention You Need To Interest Them Enough To Keep Reading.</h1>
+    <section class="title-section mb-8">
+      <h1 class="font-bold text-xl mobile:text-4xl">Now That You Grabbed Your Reader'S Attention You Need To Interest Them Enough To Keep Reading.</h1>
     </section>
-    <section class="sub-title mb-8 text-xl">
-      Describe how you got here and why you choose this career path.
+    <section class="sub-title mb-8">
+      <p class="text-lg">Describe how you got here and why you choose this career path.</p>
     </section>
-    <section class="cards flex sm:flex-col md:flex-col lg:flex-row xl:flex-row">
-      <div class="card-1 flex-col">
-        <h2 class="title mb-4 font-bold text-2xl">Skillset ONE</h2>
-        <p class="content">How did you learn this skill, and what have you done so far. For example, what tools have you used and what coding languages, strategies, or methodologies have you used. </p>
-        <div class="thumbs my-5 flex size-12 gap-4 rounded-sm justify-right">
+    <section class="cards sm:flex-row mobile:flex sm:mx-8 mobile:mx-8 desktop:mx-0 desktop: sm:gap-12 mobile:gap-12 desktop:gap-2 ">
+      <div class="card-1 ">
+        <h2 class="title font-bold text-xl sm:mb-8 mobile:mb-4">Skillset ONE</h2>
+        <p class="content mb-8 desktop:w-2/3">How did you learn this skill, and what have you done so far. For example, what tools have you used and what coding languages, strategies, or methodologies have you used. </p>
+        <div class="thumbs flex sm:justify-center mobile:justify-center sm:mx-auto mobile:mx-auto desktop:justify-left desktop:mx-24 size-12 gap-4 mb-8">
           <img class="rounded-full" src="/src/img/image.svg" alt="image1">
           <img class="rounded-full" src="/src/img/image.svg" alt="image1">
           <img class="rounded-full" src="/src/img/image.svg" alt="image1">
@@ -30,10 +30,10 @@
         </div>
       </div>
 
-      <div class="mr-8 card-2 flex-col">
-        <h2 class="title mb-4 font-bold text-2xl">Skillset TWO</h2>
-        <p class="content">How did you learn this skill, and what have you done so far. For example, what tools have you used and what coding languages, strategies, or methodologies have you used. </p>
-        <div class="thumbs my-5 flex size-12 gap-4 rounded-sm justify-right ">
+      <div class="card-2 desktop:-ml-16">
+        <h2 class="title font-bold text-xl sm:mb-8 mobile:mb-4">Skillset TWO</h2>
+        <p class="content mb-8 desktop:w-2/3">How did you learn this skill, and what have you done so far. For example, what tools have you used and what coding languages, strategies, or methodologies have you used. </p>
+        <div class="thumbs flex sm:justify-center mobile:justify-center sm:mx-auto mobile:mx-auto desktop:justify-left desktop:mx-24 size-12 gap-4 mb-8">
           <img class="rounded-full" src="/src/img/image.svg" alt="image1">
           <img class="rounded-full" src="/src/img/image.svg" alt="image1">
           <img class="rounded-full" src="/src/img/image.svg" alt="image1">
@@ -42,8 +42,8 @@
       </div>
     </section>
   </main>
-  <main class="r-container flex-col sm:mx-auto sm:flex-col md:flex-col lg:flex-row xl:flex-row pt-16 my-24">
-    <img class="size-[18rem]" src="/src/img/image.svg" alt="image1">
+  <main class="r-container sm:size-90 mobile:size-90 desktop:flex  desktop:mt-90 desktop:w-1/4 desktop:-ml-16 sm:justify-center sm:mx-auto">
+    <img class="justify-center mx-auto desktop:size-[280px]" src="/src/img/image.svg" alt="image1">
   </main>
 </body>
 </html>
